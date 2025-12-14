@@ -1,0 +1,11 @@
+bug:
+  - changed-files:
+      - any-glob-to-any-file: ['**/*.py', '**/*.js', '**/*.ts']
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: ['**/*.md']
+
+enhancement:
+  - changed-files:
+      - any-glob-to-any-file: ['src/**', 'lib/**']
